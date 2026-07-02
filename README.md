@@ -132,8 +132,8 @@ ICRS/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-team/ICRS.git
-cd ICRS
+git clone https://github.com/sarwadnyjawale/Project-Friday.git
+cd Project-Friday
 
 # Create virtual environment (recommended)
 python -m venv venv
