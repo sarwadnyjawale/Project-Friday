@@ -86,7 +86,7 @@ candidates.jsonl
 ## Folder Structure
 
 ```
-ICRS/
+Project-Friday/
 ├── rank.py                          # Main orchestrator (entry point)
 ├── config.py                        # Feature flags and configuration
 ├── loader.py                        # JSONL/gzip data loader
@@ -137,14 +137,17 @@ cd Project-Friday
 
 # Create virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
 
-# Install dependencies
+# Activate the virtual environment:
+#   Windows PowerShell:  venv\Scripts\activate
+#   Linux/Mac:           source venv/bin/activate
+
+# Install dependencies (stdlib only — no packages required by default)
 pip install -r requirements.txt
 
-# Place the dataset
-cp /path/to/candidates.jsonl DATA/
+# Place the dataset (candidates.jsonl is NOT in the repo — 487MB, excluded via .gitignore)
+#   Windows PowerShell:  copy "C:\path\to\candidates.jsonl" DATA\
+#   Linux/Mac:           cp /path/to/candidates.jsonl DATA/
 ```
 
 ### Requirements
@@ -239,8 +242,6 @@ On Windows PowerShell, use `${PWD}:/out` instead of `"$PWD:/out"`.
 ### Option 2: Google Colab
 
 Open `sandbox/ICRS_Sandbox_Colab.ipynb` in [Google Colab](https://colab.research.google.com) and run all cells. The notebook clones the repo, runs the pipeline, and displays the ranked results with score visualizations.
-
-> **Replace the placeholder repo URL** in the notebook's first code cell with your actual GitHub URL before sharing.
 
 ### Option 3: Local
 
