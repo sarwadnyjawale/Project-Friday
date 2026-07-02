@@ -39,6 +39,7 @@ submission*.csv
 !submission.csv
 sandbox_submission.csv
 sandbox/test_submission.csv
+*.xlsx
 
 # Data (too large for git)
 DATA/candidates.jsonl
