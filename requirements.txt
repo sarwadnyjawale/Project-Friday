@@ -1,0 +1,30 @@
+# ICRS - Intelligent Candidate Ranking System
+# Python Dependencies
+#
+# The default ranking pipeline uses ONLY the Python standard library.
+# No pip install is required to run: python rank.py --candidates ... --out ...
+#
+# Python >= 3.10 required (uses PEP 604 union type syntax in annotations)
+#
+# ──────────────────────────────────────────────────────────────────────────
+# Required: NONE (stdlib only)
+# ──────────────────────────────────────────────────────────────────────────
+# Modules used from stdlib: csv, gzip, json, logging, math, os, re,
+#   argparse, collections, dataclasses, datetime, pathlib, sys, time, typing
+#
+# ──────────────────────────────────────────────────────────────────────────
+# Optional: Required only if USE_HYBRID_SEMANTIC=True (disabled by default)
+# ──────────────────────────────────────────────────────────────────────────
+# To enable semantic scoring, set USE_HYBRID_SEMANTIC=true in config.py
+# or via environment variable, then install:
+numpy>=1.24.0
+# For pre-computing embeddings (precompute_embeddings.py only):
+# sentence-transformers>=2.2.0
+#
+# Pre-computation steps (optional, not needed for default config):
+#   pip install numpy sentence-transformers
+#   python precompute_embeddings.py --candidates DATA/candidates.jsonl
+#   USE_HYBRID_SEMANTIC=true python rank.py --candidates ... --out ...
+#
+# Pre-computation may exceed the 5-minute window (spec 10.3 allows this).
+# The ranking step itself completes within 5 minutes regardless.

@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0064904,1,0.990000,"5yr AI Engineer @ LinkedIn; ML background: experiment tracking, model monitoring; scored 82/100 on Elasticsearch. Caution: 90d notice period."
+CAND_0010257,2,0.986070,"6yr Senior Data Scientist @ Google; career evidence of MLflow. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0095528,3,0.982140,"5yr Senior Data Scientist @ Netflix; ML background: collaborative filtering, recommendation system."
+CAND_0081846,4,0.978209,7yr Lead AI Engineer @ Razorpay; career evidence of Semantic Search.
+CAND_0094759,5,0.974279,"9yr Lead AI Engineer @ Meta; retrieval background: dense retrieval, rag. Caution: inactive for 170 days — verify current availability."
+CAND_0060054,6,0.970348,6yr AI Engineer @ Mad Street Den; career evidence of Semantic Search; scored 90/100 on TensorFlow.
+CAND_0015528,7,0.966417,"7yr Applied ML Engineer @ Krutrim; ML background: collaborative filtering, recommendation system; scored 66/100 on Weaviate."
+CAND_0026532,8,0.962486,5yr Recommendation Systems Engineer @ Zomato; career evidence of Semantic Search. Caution: 90d notice period.
+CAND_0005260,9,0.958554,"5yr Senior NLP Engineer @ Netflix; career evidence of RAG, LoRA; high recruiter response rate (86%)."
+CAND_0028793,10,0.954623,"7yr Search Engineer @ Google; retrieval background: semantic search, sentence-transformers; scored 89/100 on Embeddings. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0013613,11,0.950691,"5yr Machine Learning Engineer @ Adobe; retrieval background: semantic search, sentence-transformers; scored 89/100 on TensorFlow."
+CAND_0016163,12,0.946759,"7yr Applied ML Engineer @ Dream11; retrieval background: semantic search, sentence-transformers; scored 88/100 on Weaviate. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0030468,13,0.942827,5yr Senior Applied Scientist @ Swiggy; retrieval background: index refresh; scored 97/100 on Sentence Transformers.
+CAND_0076251,14,0.938894,8yr Search Engineer @ Haptik; career evidence of Semantic Search; scored 76/100 on Weaviate.
+CAND_0020350,15,0.934962,"6yr AI Engineer @ Zoho; ML background: experiment tracking, model monitoring; scored 87/100 on NLP."
+CAND_0043228,16,0.931029,"7yr Applied ML Engineer @ Zoho; retrieval background: semantic search, sentence-transformers; scored 83/100 on NLP."
+CAND_0041669,17,0.927096,"8yr Recommendation Systems Engineer @ CRED; retrieval background: openai embeddings, rag; scored 84/100 on FAISS."
+CAND_0003977,18,0.923163,5yr Recommendation Systems Engineer @ Google; career evidence of Semantic Search; scored 90/100 on Learning to Rank.
+CAND_0083879,19,0.919230,"7yr Machine Learning Engineer @ Ola; ML background: experiment tracking, model monitoring."
+CAND_0070398,20,0.915296,"7yr Machine Learning Engineer @ Genpact AI; retrieval background: semantic search, sentence-transformers; scored 85/100 on RAG. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0040887,21,0.911363,"5yr Machine Learning Engineer @ Netflix; retrieval background: semantic search, sentence-transformers; scored 71/100 on FAISS."
+CAND_0081852,22,0.907429,"6yr Senior Data Scientist @ Mad Street Den; retrieval background: openai embeddings, rag."
+CAND_0051292,23,0.903495,"5yr Applied ML Engineer @ Freshworks; retrieval background: semantic search, sentence-transformers."
+CAND_0082489,24,0.899560,5yr ML Engineer @ InMobi; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0065786,25,0.895626,5yr AI Specialist @ Swiggy; retrieval background: re-ranking; active and responsive.
+CAND_0099751,26,0.891691,"6yr Junior ML Engineer @ Observe.AI; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0018653,27,0.887757,6yr ML Engineer @ Vedantu; retrieval background: re-ranking; scored 79/100 on RAG. Caution: 90d notice period.
+CAND_0001494,28,0.883822,6yr Data Scientist @ Haptik; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0001218,29,0.879886,6yr AI Specialist @ Nykaa; retrieval background: re-ranking; active and responsive. Caution: retrieval vocabulary in profile but limited production deployment evidence.
+CAND_0025882,30,0.875951,6yr Senior Software Engineer (ML) @ Freshworks; retrieval background: re-ranking; scored 73/100 on MLflow.
+CAND_0067866,31,0.872015,6yr Senior Software Engineer (ML) @ Tech Mahindra; retrieval background: re-ranking; active and responsive. Caution: current role at Tech Mahindra (IT services); JD favors product company experience.
+CAND_0061175,32,0.868080,"7yr AI Research Engineer @ Haptik; retrieval background: re-ranking; scored 72/100 on Recommendation Systems. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0078262,33,0.864144,5yr ML Engineer @ Yellow.ai; retrieval background: re-ranking; scored 76/100 on Sentence Transformers.
+CAND_0055139,34,0.860207,7yr ML Engineer @ HCL; retrieval background: re-ranking; scored 69/100 on Deep Learning. Caution: current role at HCL (IT services); JD favors product company experience.
+CAND_0011327,35,0.856271,6yr AI Research Engineer @ Krutrim; retrieval background: re-ranking; active and responsive.
+CAND_0074621,36,0.852335,5yr Data Scientist @ PharmEasy; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0067717,37,0.848398,7yr AI Specialist @ Aganitha; retrieval background: re-ranking.
+CAND_0099269,38,0.844461,"6yr Data Scientist @ BYJU'S; retrieval background: re-ranking; scored 73/100 on NLP. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0013988,39,0.840524,5yr Junior ML Engineer @ Ola; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0020991,40,0.836587,"5yr Junior ML Engineer @ PhonePe; retrieval background: re-ranking; active and responsive. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0005509,41,0.832649,6yr Data Scientist @ Ola; retrieval background: re-ranking.
+CAND_0001930,42,0.828711,"7yr Senior Software Engineer (ML) @ Dream11; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0061479,43,0.824774,"5yr ML Engineer @ BYJU'S; retrieval background: re-ranking; high recruiter response rate (81%). Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0049615,44,0.820835,5yr ML Engineer @ Krutrim; retrieval background: re-ranking.
+CAND_0015493,45,0.816897,6yr Data Scientist @ CRED; retrieval background: re-ranking; scored 86/100 on NLP.
+CAND_0056262,46,0.812959,6yr Junior ML Engineer @ Swiggy; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0087006,47,0.809020,6yr Senior Software Engineer (ML) @ Saarthi.ai; retrieval background: re-ranking.
+CAND_0010541,48,0.805081,6yr AI Research Engineer @ Wysa; retrieval background: re-ranking; scored 77/100 on Weaviate.
+CAND_0058412,49,0.801142,7yr Senior Software Engineer (ML) @ InMobi; retrieval background: re-ranking; scored 69/100 on Embeddings.
+CAND_0072091,50,0.797203,"5yr ML Engineer @ Krutrim; retrieval background: re-ranking (rank 50, CAND_0072091)."
+CAND_0032179,51,0.793264,6yr Computer Vision Engineer @ InMobi; retrieval background: re-ranking; scored 78/100 on Learning to Rank.
+CAND_0075439,52,0.789324,"4yr Machine Learning Engineer @ Flipkart; retrieval background: openai embeddings, rag; scored 85/100 on Learning to Rank. Caution: AI experience post-2022 only; JD requires pre-LLM era ML production background."
+CAND_0022852,53,0.785384,"5yr AI Research Engineer @ Zomato; retrieval background: re-ranking; high recruiter response rate (86%). Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0092255,54,0.781444,5yr ML Engineer @ InMobi; retrieval background: re-ranking.
+CAND_0008978,55,0.777504,7yr Junior ML Engineer @ Tech Mahindra; retrieval background: re-ranking; scored 85/100 on Embeddings. Caution: current role at Tech Mahindra (IT services); JD favors product company experience.
+CAND_0004402,56,0.773564,6yr AI Research Engineer @ Yellow.ai; retrieval background: re-ranking; scored 85/100 on PyTorch.
+CAND_0003609,57,0.769623,6yr Senior Software Engineer (ML) @ Sarvam AI; retrieval background: re-ranking; scored 85/100 on Data Science.
+CAND_0049978,58,0.765683,7yr Senior Software Engineer (ML) @ Sarvam AI; retrieval background: re-ranking. Caution: inactive for 128 days — verify current availability.
+CAND_0015967,59,0.761742,5yr Senior Software Engineer (ML) @ Razorpay; retrieval background: re-ranking.
+CAND_0067535,60,0.757801,7yr Junior ML Engineer @ Locobuzz; retrieval background: re-ranking; active and responsive.
+CAND_0097896,61,0.753859,"5yr AI Research Engineer @ upGrad; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0010603,62,0.749918,5yr ML Engineer @ BYJU'S; retrieval background: re-ranking; active and responsive. Caution: 90d notice period.
+CAND_0032515,63,0.745976,5yr Machine Learning Engineer @ PharmEasy; career evidence of MLflow; scored 72/100 on Vector Search.
+CAND_0066035,64,0.742034,7yr Data Scientist @ Razorpay; retrieval background: re-ranking.
+CAND_0067643,65,0.738092,6yr AI Research Engineer @ PhonePe; retrieval background: re-ranking.
+CAND_0048558,66,0.734150,7yr Data Scientist @ Rephrase.ai; retrieval background: re-ranking; active and responsive.
+CAND_0032089,67,0.730208,7yr ML Engineer @ Saarthi.ai; retrieval background: re-ranking; scored 83/100 on Pinecone.
+CAND_0096142,68,0.726265,"5yr Applied ML Engineer @ upGrad; ML background: a/b test, collaborative filtering; scored 86/100 on Weaviate. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0011140,69,0.722322,"5yr ML Engineer @ Haptik; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0014858,70,0.718379,5yr AI Research Engineer @ Aganitha; retrieval background: re-ranking; scored 82/100 on Sentence Transformers. Caution: 90d notice period.
+CAND_0029135,71,0.714436,6yr AI Specialist @ Meesho; retrieval background: re-ranking. Caution: inactive for 129 days — verify current availability.
+CAND_0042506,72,0.710493,"4yr Search Engineer @ Verloop.io; retrieval background: openai embeddings, rag. Caution: AI experience post-2022 only; JD requires pre-LLM era ML production background."
+CAND_0037980,73,0.706549,"9yr Senior Applied Scientist @ Niramai; ML background: evaluation framework, drift detection; scored 72/100 on Vector Search."
+CAND_0051486,74,0.702605,"6yr AI Specialist @ Aganitha; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0041610,75,0.698661,"7yr Recommendation Systems Engineer @ Zoho; retrieval background: openai embeddings, rag. Caution: adjacent profile — included at margin; limited production retrieval-system evidence."
+CAND_0067041,76,0.694717,"7yr Data Scientist @ Saarthi.ai; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0055960,77,0.690773,5yr AI Specialist @ Dream11; retrieval background: re-ranking; scored 67/100 on Machine Learning. Caution: 90d notice period.
+CAND_0057529,78,0.686828,7yr Junior ML Engineer @ Glance; retrieval background: re-ranking; scored 83/100 on Data Science. Caution: inactive for 123 days — verify current availability.
+CAND_0008533,79,0.682883,3yr Data Scientist @ Krutrim; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0080051,80,0.678938,5yr Data Scientist @ Niramai; retrieval background: re-ranking. Caution: inactive for 121 days — verify current availability.
+CAND_0050707,81,0.674993,5yr AI Specialist @ Paytm; retrieval background: re-ranking; scored 83/100 on Vector Search. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0094728,82,0.671048,"6yr AI Specialist @ Swiggy; ML background: fine-tuning, model deployment; scored 85/100 on RAG. Caution: adjacent profile — included at margin; limited production retrieval-system evidence."
+CAND_0059795,83,0.667103,6yr Senior Software Engineer (ML) @ Locobuzz; retrieval background: re-ranking; active and responsive. Caution: inactive for 124 days — verify current availability.
+CAND_0031143,84,0.663157,"6yr ML Engineer @ Freshworks; ML background: model deployment, fine-tuning; scored 85/100 on Python. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0073883,85,0.659211,5yr AI Specialist @ Krutrim; retrieval background: re-ranking; active and responsive. Caution: 90d notice period.
+CAND_0040178,86,0.655265,5yr ML Engineer @ Meesho; retrieval background: re-ranking. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0073007,87,0.651319,6yr AI Specialist @ Aganitha; retrieval background: re-ranking; active and responsive. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0043958,88,0.647372,"7yr AI Research Engineer @ Dream11; retrieval background: re-ranking. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0046526,89,0.643426,6yr ML Engineer @ Ola; retrieval background: re-ranking; scored 73/100 on FAISS. Caution: 90d notice period.
+CAND_0010149,90,0.639479,7yr ML Engineer @ Glance; retrieval background: re-ranking; active and responsive. Caution: 90d notice period.
+CAND_0006833,91,0.635532,"6yr AI Research Engineer @ Mad Street Den; retrieval background: re-ranking; scored 73/100 on Data Science. Caution: 120d notice period; JD prefers sub-30d, will consider up to 90d."
+CAND_0027663,92,0.631585,5yr AI Specialist @ Observe.AI; retrieval background: re-ranking. Caution: 90d notice period.
+CAND_0065927,93,0.627637,6yr Senior Software Engineer (ML) @ Ola; retrieval background: re-ranking. Caution: inactive for 123 days — verify current availability.
+CAND_0043860,94,0.623690,6yr Junior ML Engineer @ Aganitha; retrieval background: re-ranking; scored 84/100 on Information Retrieval. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0082913,95,0.619742,6yr Senior Software Engineer (ML) @ InMobi; retrieval background: re-ranking. Caution: retrieval vocabulary in profile but limited production deployment evidence.
+CAND_0002426,96,0.615794,3yr Data Scientist @ Freshworks; retrieval background: re-ranking; active and responsive. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0080344,97,0.611846,5yr Senior Software Engineer (ML) @ Zoho; retrieval background: re-ranking; scored 79/100 on Sentence Transformers. Caution: 90d notice period.
+CAND_0069771,98,0.607897,6yr Junior ML Engineer @ Sarvam AI; retrieval background: re-ranking; scored 67/100 on Elasticsearch. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0024147,99,0.603949,6yr ML Engineer @ Ola; retrieval background: re-ranking; active and responsive. Caution: retrieval evidence limited to re-ranking; lacks vector DB or embedding deployment experience.
+CAND_0009236,100,0.600000,6yr AI Specialist @ Vedantu; retrieval background: re-ranking. Caution: retrieval vocabulary in profile but limited production deployment evidence.

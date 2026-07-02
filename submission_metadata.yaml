@@ -1,0 +1,106 @@
+# Redrob Hackathon — Submission Metadata
+# Mirrors portal metadata. See submission_metadata_template.yaml for field docs.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Project Friday"
+
+primary_contact:
+  name: "Sarwadny Jawale"
+  email: "sarwadnyj008@gmail.com"
+  phone: "+91-8007887188"
+
+team_members:
+  - name: "Sarwadny Jawale"
+    email: "sarwadnyj008@gmail.com"
+    role: "ML Engineer / Team Lead"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/sarwadnyjawale/Project-Friday"
+
+sandbox_link: "https://github.com/sarwadnyjawale/Project-Friday#sandbox--demo"
+# Self-contained Docker recipe in the README (per spec 10.5 allowance).
+# The Dockerfile builds and runs unmodified:
+#   docker build -t icrs-sandbox .
+#   docker run --rm -v "$PWD:/out" icrs-sandbox
+# A Google Colab notebook is also included at sandbox/ICRS_Sandbox_Colab.ipynb.
+
+reproduce_command: "python rank.py --candidates ./DATA/candidates.jsonl --out ./submission.csv"
+# Single command that produces submission.csv from the candidates file.
+# Runs end-to-end in ~240s on CPU with 16GB RAM. No network, no GPU.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 11 Local Machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.14.3"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+# No pre-computation required for the default configuration.
+# Optional: semantic embeddings can be pre-computed via precompute_embeddings.py
+# (requires numpy + sentence-transformers), but USE_HYBRID_SEMANTIC=False by default.
+
+# ============================================================================
+# AI tools declaration (spec 10.4 — transparency, not filtering)
+# ============================================================================
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Claude (Anthropic) was used as the primary development tool throughout the
+  project. The human team member directed all architectural decisions, design
+  choices, and feature prioritization. Claude assisted with:
+  - Writing Python source code for all pipeline modules
+  - Implementing honeypot detection (11 checks) and trap detection (10 traps)
+  - Writing the 59-test suite
+  - Debugging issues (type annotation compatibility, IndexError on small samples,
+    Docker permission errors)
+  - Writing documentation (README, architecture docs, methodology docs)
+  - Creating the sandbox (Dockerfile, Colab notebook, sandbox runner)
+  No candidate data was fed to any LLM. All ranking logic is deterministic
+  rule-based Python with zero network calls. The human reviewed all code,
+  made all design decisions, and can defend every architectural choice.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Rule-based multi-signal ranker with explicit honeypot and trap detection.
+  Eight scoring components (A: core technical 35%, B: production ML 20%,
+  C: assessment 12%, D: career quality 13%, E: behavioral 10%, F: location 5%,
+  G: education 3%, H: GitHub 2%) combined via weighted sum with multiplicative
+  hard multipliers for honeypot/trap signals.
+
+  Honeypot detection: 11 structural checks (inverted salary, YoE inflation,
+  expert+0 duration, technology timeline, impossible breadth, domain mismatch,
+  boilerplate summary, overlapping FT roles, assessment>100, negative salary,
+  future start dates). Penalties: 1 high-confidence signal=0.30x, 2+=0.05x,
+  3+=0.01x.
+
+  Trap detection: 10 behavioral patterns (consulting-only, LangChain-only,
+  pure researcher, behavioral dead, keyword stuffer, recent hype pivot, title
+  chaser, domain mismatch, certification padder, experience gap).
+
+  Enhanced pipeline: evidence consistency, context evidence analysis,
+  corroborated skill scoring, confidence estimation, sigmoid score calibration
+  on top-2000 candidates. Linear rescaling of top-100 to [0.60, 0.99].
+  REFERENCE_DATE=2026-06-27 for determinism. Runtime ~240s on CPU.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
